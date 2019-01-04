@@ -1,0 +1,243 @@
+/* CSS Document */
+
+body {
+	scrollbar-arrow-color: #FFFFFF;
+	scrollbar-3dlight-color: #191919;
+	scrollbar-highlight-color: #A2A2A2;
+	scrollbar-face-color: #191919;
+	scrollbar-shadow-color: #A2A2A2;
+	scrollbar-darkshadow-color: #191919;
+	scrollbar-track-color: #191919;
+	background-color:#191919;
+	margin:7px;
+}
+#head a {
+	font:bold 12px Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	text-decoration:none;
+	padding-left:16px;
+	padding-right:16px;
+}
+#head a:hover {
+	font:bold 12px Arial, Helvetica, sans-serif;
+	color:#FDED40;
+	text-decoration:none;
+	padding-left:16px;
+	padding-right:16px;
+}
+#bottom a, #bottom {
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	color:#8C8C8C;
+	text-decoration:none;
+}
+#bottom a:hover {
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	color:#FDED40;
+	text-decoration:none;
+}
+.bg {
+
+	background-color:#D7D7D7;
+	background-repeat:repeat-x;
+	background-position:bottom;
+	padding-bottom:10px;
+}
+.title {
+	font:bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+}
+.title2 {
+	font:18px Arial, Helvetica, sans-serif;
+	color:#000000;
+	padding-left:5px;
+}
+td {
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+}
+a {
+	font:bold 11px Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+	text-decoration:underline;
+}
+a:hover {
+	font:bold 11px Verdana, Arial, Helvetica, sans-serif;
+	color:#404040;
+	text-decoration:underline;
+}
+table.gray td {
+	color:#404040;
+}
+.darktd {
+	background-color:#2C2C2C;
+	font:bold 13px Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	padding:5px;
+	padding-left:25px;
+}
+.even {
+	background-color:#F8D304;
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+	padding:12px;
+	padding-left:25px;
+	padding-right:25px;
+}
+.odd {
+	background-color:#FCEC40;
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+	padding:12px;
+	padding-left:25px;
+	padding-right:25px;
+}
+form {margin:0px;}
+input,textarea,select {
+	font:11px arial;
+	color:#000000;
+	border:1px solid #AAAAAA;
+	width:95%;
+	height:22px;
+	padding:3px;
+}
+textarea {
+	height:36px;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	padding:0 0 0 3px;
+}
+.button {
+	width:127px;
+	height:22px;
+	border:solid;
+	background:none;
+/*	background-image:url("index-404.html"); */
+	font:bold 10px tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+	cursor:pointer;
+	text-transform:uppercase;
+	text-align:left;
+	padding-left:10px;
+}
+.button2 {
+	width:127px;
+	height:23px;
+	border:none;
+	background:none;
+	background-image:url("index-404.html");
+	font:bold 10px tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+	cursor:pointer;
+	text-transform:uppercase;
+	text-align:left;
+	padding-left:10px;
+}
+.button_cards {
+	width:89px;
+	height:34px;
+	border:none;
+	background:none;
+	background-image:url("index-404.html");
+	font:bold 12px tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	cursor:pointer;
+}
+#table th {
+	background-color:#000000;
+	font:bold 10px Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+}
+#table tr.odd td {
+	background-color:#CECCCC;
+	font:bold 10px Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+}
+#table tr.even td, #table td.even {
+	background-color:#ffffff;
+	font:bold 10px Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+}
+#table a {
+	font:bold 9px Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+#table a:hover {
+	font:bold 9px Verdana, Arial, Helvetica, sans-serif;
+	color:#CCCCCC;
+	text-decoration:underline;
+}
+#table .title {
+	font:bold 18px Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+}
+#button2 a {
+	font:bold 10px tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+	text-decoration:none;
+}
+.egold {
+	background-image:url("index-404.html");
+	width:88px;
+	height:31px;
+	border:none;
+	cursor:hand;
+}
+.ebullion {
+	background-image:url("index-404.html");
+	width:90px;
+	height:35px;
+	border:none;
+	cursor:hand;
+}
+.libertyreserve {
+	background-image:url("index-404.html");
+	width:83px;
+	height:35px;
+	border:none;
+	cursor:hand;
+}
+.blue {
+	font-weight:bold;
+	font-size: 13pt;
+}
+.submit {
+	width:auto;
+	border:none;
+}
+.att {
+	font-weight:bold;
+	color:#FF0000;
+}
+.shadow {
+	background-image:url("index-404.html");
+	background-position:top;
+	background-repeat:repeat-x;
+}
+h2,.title3 {
+	font:bold 13pt Arial, Helvetica, sans-serif;
+	color:#000000;
+}
+.red {
+	color:#FF0000;
+}
+/************/
+#dhtmltooltip {
+	font:11px arial;
+	position: absolute;
+	left: -300px;
+	width: 150px;
+	border: 1px solid black;
+	padding: 2px;
+	background-color: lightyellow;
+	visibility: hidden;
+	z-index: 100;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=115);
+}
+#dhtmlpointer {
+	position:absolute;
+	left: -300px;
+	z-index: 101;
+	visibility: hidden;
+}
+/************/
